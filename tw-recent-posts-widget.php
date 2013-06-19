@@ -132,8 +132,8 @@ while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 	<div class="featured-post">
 	
 	<?php if ($show_post_title) { ?>
-		<h4><a href="<?php the_permalink() ?>" rel="bookmark"
-	title="<?php the_title_attribute() ?>"><?php the_title() ?></a></h4>
+		<h5><a href="<?php the_permalink() ?>" rel="bookmark"
+	title="<?php the_title_attribute() ?>"><?php the_title() ?></a></h5>
 	<?php } ?>
 
 	<?php if ($show_post_time) { ?>
